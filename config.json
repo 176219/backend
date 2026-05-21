@@ -1,0 +1,19 @@
+{
+    "database": {
+        "host": "153.92.15.31",
+        "port": 3306,
+        "user": "u875409848_llanto",
+        "password": "2qW^sUg=M",
+        "database": "u875409848_llanto"
+    },
+    "secret": "ANY_LONG_RANDOM_STRING",
+    "emailFrom": "esmeralda.toy@ethereal.email",
+    "smtpOptions": {
+        "host": "smtp.ethereal.email",
+        "port": 587,
+        "auth": {
+            "user": "esmeralda.toy@ethereal.email",
+            "pass": "Heroicmagma1"
+        }
+    }
+}
