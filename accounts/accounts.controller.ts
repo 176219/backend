@@ -45,16 +45,15 @@ function authenticate(req: any, res: any, next: any) {
 }
 
 function refreshToken(req: any, res: any, next: any) {
-    const token = req.cookies.refreshToken;
+    const token = req.cookies.refreshToken || req.body.token; 
     const ipAddress = req.ip;
     accountService.refreshToken({ token, ipAddress })
         .then(({ refreshToken, ...account }: any) => {
             setTokenCookie(res, refreshToken);
-            res.json(account);
+            res.json({ ...account, refreshToken }); 
         })
         .catch(next);
 }
-
 function revokeTokenSchema(req: any, res: any, next: any) {
     const schema = Joi.object({
         token: Joi.string().empty('')
