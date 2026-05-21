@@ -10,7 +10,7 @@
     "emailFrom": "noreplymypp.com",
     "smtpOptions": {
         "host": "sandbox.smtp.mailtrap.io",
-        "port": 587,
+        "port": 2525,
         "auth": {
             "user": "c887a159503e55",
             "pass": "26eb48da0de222"
