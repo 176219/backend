@@ -7,7 +7,7 @@
         "database": "u875409848_llanto"
     },
     "secret": "ANY_LONG_RANDOM_STRING",
-    "emailFrom": "esmeralda.toy@ethereal.email",
+    "emailFrom": "noreplymypp.com",
     "smtpOptions": {
         "host": "sandbox.smtp.mailtrap.io",
         "port": 587,
