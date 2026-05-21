@@ -7,7 +7,7 @@ info:
 
 servers:
  - url: https://backend-smgy.onrender.com
-   description: Local development server
+   description: 
 
 
 paths:
