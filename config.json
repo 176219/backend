@@ -9,11 +9,11 @@
     "secret": "ANY_LONG_RANDOM_STRING",
     "emailFrom": "esmeralda.toy@ethereal.email",
     "smtpOptions": {
-        "host": "smtp.ethereal.email",
+        "host": "sandbox.smtp.mailtrap.io",
         "port": 587,
         "auth": {
-            "user": "esmeralda.toy@ethereal.email",
-            "pass": "Heroicmagma1"
+            "user": "c887a159503e55",
+            "pass": "26eb48da0de222"
         }
     }
 }
